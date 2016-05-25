@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
-@import url(https://fonts.googleapis.com/css?family=Orbitron:500);
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
 /**
  * A simple theme for reveal.js presentations, similar
@@ -40,7 +39,7 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: black;
-  font-family: "Oswald", Impact, sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 300;
   line-height: 1.1em;
   letter-spacing: 0.02em;
@@ -52,7 +51,7 @@ section.body{
 }
 
 h2.fancy{
-  font-family: 'Orbitron', cursive;
+  font-family: monospace;
   font-size: 3em;
   color: #32CD32;
 }
