@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
-@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Orbitron:500);
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
 /**
  * A simple theme for reveal.js presentations, similar
@@ -52,33 +52,9 @@ section.body{
 }
 
 h2.fancy{
-  font-family: 'Lobster', cursive;
-  font-size: 4em;
-  color: #74CDD7;
-}
-
-h2#basics{
-  font-family: 'Lobster', cursive;
-  font-size: 3.5em;
-  color: #F2CE2E;
-}
-
-h2#help{
-  font-family: 'Lobster', cursive;
-  font-size: 3.5em;
-  color: #B3D676;
-}
-
-h2#space{
-  font-family: 'Lobster', cursive;
-  font-size: 3.5em;
-  color: #74CDD7;
-}
-
-h2#contact{
-  font-family: 'Lobster', cursive;
-  font-size: 3.5em;
-  color: #F37626;
+  font-family: 'Orbitron', cursive;
+  font-size: 3em;
+  color: #32CD32;
 }
 
 p.center{
@@ -132,11 +108,11 @@ p.center{
  *********************************************/
 .reveal .controls div.navigate-left,
 .reveal .controls div.navigate-left.enabled {
-  border-right-color: #F37626; }
+  border-right-color: #32CD32; }
 
 .reveal .controls div.navigate-right,
 .reveal .controls div.navigate-right.enabled {
-  border-left-color: #F37626; }
+  border-left-color: #32CD32; }
 
 /**
 .reveal .controls div.navigate-up,
@@ -149,10 +125,10 @@ p.center{
 **/
 
 .reveal .controls div.navigate-left.enabled:hover {
-  border-right-color: #74CDD7; }
+  border-right-color: #F37626; }
 
 .reveal .controls div.navigate-right.enabled:hover {
-  border-left-color: #74CDD7; }
+  border-left-color: #F37626; }
 
 /**
 .reveal .controls div.navigate-up.enabled:hover {
