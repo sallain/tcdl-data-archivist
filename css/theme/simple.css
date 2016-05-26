@@ -7,7 +7,7 @@
  * This theme is Copyright (C) 2012 Owen Versteeg, https://github.com/StereotypicalApps. It is MIT licensed.
  * reveal.js is Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  *
- * The theme has been edited to match Ryerson University Library & Archives' style guide by Sara Allain.
+ * The theme has been edited by Sara Allain.
  */
 /*********************************************
  * GLOBAL STYLES
@@ -16,7 +16,8 @@ body {
   background: white;
   background-color: white;}
 
-html { background-color: inherit;}
+html {
+  background-color: inherit;}
 
 .reveal {
   font-family: "Lato", sans-serif;
@@ -58,11 +59,6 @@ h2.fancy{
   color: #32CD32;
 }
 
-p.center{
-  text-align: center;
-  margin: 50px 50px 0px 50px;
-}
-
 /*********************************************
  * LINKS
  *********************************************/
@@ -76,7 +72,7 @@ p.center{
   transition: color .15s ease; }
 
 .reveal a:not(.image):hover {
-  color: #74CDD7;
+  color: #32CD32;
   text-shadow: none;
   border: none; }
 
@@ -89,6 +85,10 @@ p.center{
  *********************************************/
 .reveal section img {
   background: rgba(255, 255, 255, 0.12);}
+
+img {
+  width: 100%;
+}
 
 .body img{
   display: block;

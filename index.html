@@ -49,7 +49,7 @@
 					<br>
 					<h3>The archivist’s role in data management<br>and preservation</h3>
 					<br>
-					<small>Sara Allain, Systems Archivist | Artefactual Systems, Inc.</small>
+					<small>Sara Allain & Sarah Romkey | Artefactual Systems, Inc.</small>
 					<br>
 					<small>May 26, 2016 | TCDL 2016, Austin, Texas</small>
 				</section>
@@ -114,8 +114,6 @@
 					<h2>Definition</h2>
 					<hr>
 					<p>Web- and standards-based open-source application which allows your institution to preserve long-term access to trustworthy, authentic and reliable digital content.</p>
-					<br>
-					<img src=img/archivematica.png>
 				</section>
 
 				<section class="body">
@@ -143,27 +141,126 @@
 					<hr>
 					<p>Based on standards and best practices</p>
 					<p>Format and repository agnostic</p>
+					<p>Modular</p>
 					<p>Free and open source</p>
-					<p>Small enough to run on your laptop</p>
+					<p>Small enough to run on a laptop</p>
 					<p>Robust enough to handle petabytes of data</p>
-				</section>
-
-				<section class="body">
-					<h2 class="fancy">OCUL<br>+<br>Dataverse</h2>
-					<br>
-					<h2>Case Study 1</h2>
-				</section>
-
-				<section class="body">
-					<h2></h2>
-					<hr>
-					<p></p>
+					<p>Familiar</p>
 				</section>
 
 				<section class="body">
 					<h2 class="fancy">York/Hull<br>+<br>Hydra</h2>
-					<br>
+					<hr>
+					<h2>Case Study 1</h2>
+				</section>
+
+				<section class="body">
+					<h2>Research Data Spring</h2>
+					<hr>
+					<p>JISC-funded projects aimed at encouraging tool and workflow development to tackle various aspects of research data management.</p>
+					<p>Available project funding was anywhere from £250k to £1m.</p>
+				</section>
+
+				<section class="body">
+					<h2>Research Data Spring</h2>
+					<hr>
+					<p>York and Hull were successful at obtaining funding for all three phases of the project.</p>
+					<p>Goal was to take advantage of Archivematica's modularity to integrate Archivematica into a research data management architecture that would include other applications for deposit, management, etc.</p>
+				</section>
+
+				<section class="body">
+					<h2>York & Hull at the Outset</h2>
+					<hr>
+					<p>Established Hydra-based institutional repository, but no digital preservation capacity.</p>
+					<p>Wanted to be able to offer assured long-term preservation to faculty members.</p>
+				</section>
+
+				<section class="body">
+					<h2>Archivematica Falls Short!</h2>
+					<hr>
+					<p>After Phase 1 (testing), the archivists at York and Hull identified several areas where Archivematica was not sufficient to meet their RDM needs.</p>
+					<p>They applied for Phase 2 funding to begin developing solutions for the identified problems.</p>
+				</section>
+
+				<section class="body">
+					<h2>Winter of <strike>Our Discontent</strike> Development</h2>
+					<hr>
+					<p>Five deliverables:</p>
+					<ul>
+						<li>On demand automated DIP generation</li>
+						<li>METS parsing</li>
+						<li>Generic search REST API</li>
+						<li>Multiple checksum algorithms</li>
+						<li>Handle unidentified files</li>
+					</ul>
+					<br><br>
+					<small>Disclaimer: York and Hull are lovely to work with! But who can resist a Shakespeare joke?</small>
+				</section>
+
+				<section class="body">
+					<h2>Deploy! Deploy!</h2>
+					<hr>
+					<p>York and Hull successfully applied for Phase 3 funding to build a proof-of-concept platform, making use of the deliverables to integrate Archivematica with Hydra.</p>
+					<p>Meanwhile, Artefactual is currently bundling the new features into the 1.5 and 1.6 releases of Archivematica.</p>
+				</section>
+
+				<section class="body">
+					<h2 class="fancy">OCUL<br>+<br>Dataverse</h2>
+					<hr>
 					<h2>Case Study 2</h2>
+				</section>
+
+				<section class="body">
+					<h2>Dataverse at OCUL</h2>
+					<hr>
+					<p>Open source repository platform developed at Harvard.</p>
+					<p>Ontario Council of University Libraries' tech branch, Scholars Portal, hosts a Dataverse instance that is available to academics at Ontario's 21 universities.</p>
+				</section>
+
+				<section class="body">
+					<h2>Dataverse for Deposit</h2>
+					<hr>
+					<p>Dataverse excels as a deposit and access system, but has limited digital preservation functionality.</p>
+					<p>Goal of the project was to let users deposit content through Dataverse, running Archivematica preservation tasks in the background.</p>
+					<p>Important: users can deposit content over time, rather than all at once!</p>
+				</section>
+
+				<section class="body">
+					<h2>Automate It!</h2>
+					<hr>
+					<p>The integration makes use of Automation Tools, an Archivematica library that facilitates requests for updated information from Dataverse's API. An ingest script was also developed to manage ingest tasks.</p>
+				</section>
+
+				<section class="body">
+					<img src="img/dataverse-workflow.png">
+					<br>
+					<small>Orange: Automation Tools<br>Green: Dataverse<br>Blue: Archivematica</small>
+				</section>
+
+				<section class="body">
+					<h2>An Experiment</h2>
+					<hr>
+					<p>The Dataverse integration project resulted in a proof of concept workflow that isn't currently scheduled for release. However, it's available as a separate public branch of the project on Github.</p>
+					<p>At some point in the future, we would love to generalize the code and make it available in a public release.</p>
+				</section>
+
+				<section class="body">
+					<h2 class="fancy">Compute Canada<br>+<br>Globus</h2>
+					<hr>
+					<h2>Case Study 3</h2>
+				</section>
+
+				<section class="body">
+					<h2>Compute Canada</h2>
+					<hr>
+					<p>A national, non-profit organization that provides high performance research computing resources for 70 institutions and 10,000+ researchers.</p>
+					<p>Compute Canada uses Globus' Transfer Service and Publication Service tools to store and provide access to research data.</p>
+				</section>
+
+				<section class="body">
+					<h2>Canadian Polar Data Network Pilot</h2>
+					<hr>
+					<p>Scholars Portal holds terabytes of climate data from the CPDN. This corpus was used to pilot an integration where Archivematica acted as a bridge between the Globus Transfer and Publication Services.</p>
 				</section>
 
 				<section class="body">
@@ -173,16 +270,16 @@
 				</section>
 
 				<section class="body">
-					<h2 class="fancy">Compute Canada<br>+<br>Globus</h2>
-					<br>
-					<h2>Case Study 3</h2>
+					<h2></h2>
+					<hr>
+					<p></p>
 				</section>
 
 				<section class="body">
 					<h2>Get In Touch!</h2>
 					<hr>
 					<p>Twitter: <a href="https://twitter.com/archivalistic">@archivalistic</a> | <a href="https://twitter.com/archivematica">@archivematica</a></p>
-					<p>Email: sallain@artefactual.com or info@artefactual.com</p>
+					<p>Email: <a href="mailto:sallain@artefactual.com">sallain@artefactual.com</a> or <a href="info@artefactual.com">info@artefactual.com</a></p>
 					<p>This presentation: <a href="">link</a></p>
 				</section>
 
